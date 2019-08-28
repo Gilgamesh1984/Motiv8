@@ -49,7 +49,7 @@ body {
   background: rgba(0, 0, 0, 0.7)!important;
   transition: background-color 1s ease 0s;
 }
-/*--- Drop-down Menu --*/
+/*--- DROP DOWN MENU CONTENT --*/
 .dropdown-menu, .dropdown-item {
   font-size: .9rem;
   font-weight: 700!important;
@@ -71,9 +71,42 @@ body {
 .dropdown-menu:hover, .dropdown-item:hover,
 .dropdown-menu:focus, .dropdown-item:focus,
 .dropdown-toggle:active, .dropdown-toggle:focus {
-  color: #1ebba3!important;
+  color: #F5801C!important;
 }
 .dropdown-submenu.solid, .dropdown-menu.show.solid {
   background: rgba(0, 0, 0, 0.7)!important;
   transition: background-color 1s ease 0s;
+}
+/*JUMBOTRON CONTENT HERE */
+.jumbotron{
+    background-image: url("../img/jumbo_happy_test.jpeg") ;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    color: white;
+    text-shadow: 2px 2px #000000;
+}
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+}
+
+.btn-jumbotron{
+    background-color: black;
+    border-color: white;
+}
+
+.vertical-center {
+min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+min-height: 100vh; /* These two lines are counted as one :-)       */
+
+min-height: calc(100% - 64px);  /*  */
+min-height: calc(100vh - 64px); /* */
+
+display: flex;
+align-items: center;
 }
