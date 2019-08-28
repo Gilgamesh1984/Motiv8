@@ -1,5 +1,79 @@
-h1 {
-    font-size: 4em;
-    color: red;
-    background-color: limegreen;
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap');
+
+
+body {
+    background-color: #3d3d3d;
+}
+/*--- Nav Scrolling Offset --*/
+.offset:before {
+  height: 4rem;
+  margin-top: -4rem;
+  content: "";
+  display: block;
+}
+
+/*--- Extra Bootstrap Column Padding --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+
+/*============= NAVIGATION =============*/
+
+.navbar {
+  padding: .7rem 1rem;
+  text-transform: uppercase;
+  font-size: .9rem;
+  font-weight: 700;
+  letter-spacing: .1rem;
+  transition: background-color .5s ease 0s;
+}
+.navbar-brand img {
+  height: 2rem;
+}
+.svg-inline--fa.fa-w-14 {
+  color: white;
+  font-size: 1.6rem;
+}
+.navbar-nav li {
+  padding-right: .8rem;
+}
+.navbar-nav .nav-link {
+  color: white;
+  padding-top: .8rem;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  color: #F5801C;
+}
+.navbar.solid {
+  background: rgba(0, 0, 0, 0.7)!important;
+  transition: background-color 1s ease 0s;
+}
+/*--- Drop-down Menu --*/
+.dropdown-menu, .dropdown-item {
+  font-size: .9rem;
+  font-weight: 700!important;
+  background-color: transparent!important;
+  border: 0;
+  color: white;
+}
+.dropdown-menu.show {
+  margin-top: .75rem!important;
+  border-radius: 0;
+  transition: background-color .5s ease 0s;
+}
+.dropdown-submenu {
+  transition: background-color .5s ease 0s;
+}
+.dropdown-menu.no-space-top {
+  margin-top: 0!important;
+}
+.dropdown-menu:hover, .dropdown-item:hover,
+.dropdown-menu:focus, .dropdown-item:focus,
+.dropdown-toggle:active, .dropdown-toggle:focus {
+  color: #1ebba3!important;
+}
+.dropdown-submenu.solid, .dropdown-menu.show.solid {
+  background: rgba(0, 0, 0, 0.7)!important;
+  transition: background-color 1s ease 0s;
 }
