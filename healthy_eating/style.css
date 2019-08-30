@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap');
+
+h1 .display-3 {
+  /*font-size:3.75em;*/
+  text-align: left;
+  
+  
+}
+.display-3{
+  background: rgb(20, 172, 175,0.5);
+  font-size: 3rem;
+}
+
+body {
+    background-color: #FCFBFA;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+/*--- Nav Scrolling Offset --*/
+.offset:before {
+  height: 4rem;
+  margin-top: -4rem;
+  content: "";
+  display: block;
+}
+
+/*--- Extra Bootstrap Column Padding --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+
+/*============= NAVIGATION =============*/
+
+.navbar {
+  padding: .7rem 1rem;
+  text-transform: uppercase;
+  font-size: .9rem;
+  font-weight: 700;
+  letter-spacing: .1rem;
+  transition: background-color .5s ease 0s;
+  background-color: #FE8A00 !important;
+}
+.navbar-brand img {
+  height: 2rem;
+}
+.svg-inline--fa.fa-w-14 {
+  color: #414345;
+  font-size: 1.6rem;
+}
+.navbar-nav li {
+  padding-right: .8rem;
+}
+.navbar-nav .nav-link {
+  color: #414345;
+  padding-top: .8rem;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  color: #2C67D6;
+}
+.navbar.solid {
+  background: rgba(0, 0, 0, 0.7)!important;
+  transition: background-color 1s ease 0s;
+}
+/*--- DROP DOWN MENU CONTENT --*/
+.dropdown-menu, .dropdown-item {
+  font-size: .9rem;
+  font-weight: 700!important;
+  background-color: transparent!important;
+  border: 0;
+  color: #414345;
+}
+.dropdown-menu.show {
+  margin-top: .75rem!important;
+  border-radius: 0;
+  transition: background-color .5s ease 0s;
+}
+.dropdown-submenu {
+  transition: background-color .5s ease 0s;
+}
+.dropdown-menu.no-space-top {
+  margin-top: 0!important;
+}
+.dropdown-menu:hover, .dropdown-item:hover,
+.dropdown-menu:focus, .dropdown-item:focus,
+.dropdown-toggle:active, .dropdown-toggle:focus {
+  color: #414345 !important;
+}
+.dropdown-submenu.solid, .dropdown-menu.show.solid {
+  background: rgba(0, 0, 0, 0.7)!important;
+  transition: background-color 1s ease 0s;
+}
+/*JUMBOTRON CONTENT HERE */
+.jumbotron{
+    background-image: url("./img/Flat-lay-of-healthy-foods.png") ;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    /*color: white;*/
+    color:#FAE8A6;
+    
+    
+}
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items:flex-end !important;
+}
+
+.btn-jumbotron {
+    background-color: #414345;
+    border-color: white;
+}
+.btn-jumbotron:hover {
+    background-color: #2C67D6;
+    border-color: white;
+}
+/*STYLING FOR HR*/
+.my-4 {
+    width: 20%;
+    align-content: left;
+    height: 5px solid #414345;
+}
+
+.vertical-center {
+min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+min-height: 100vh; /* These two lines are counted as one :-)       */
+
+min-height: calc(100% - 64px);  /*  */
+min-height: calc(100vh - 64px); /* */
+
+display: flex;
+align-items: center;
+}
+
+.store {
+    position: relative;
+    justify-content: space-around;
+}
+
+/*START OF FEATURES STYLING*/
+/*
+* {
+    box-sizing: border-box;
+}
+
+.features-block {
+    margin: 0 auto;
+    padding-top: 60px;
+    width: 100%;
+}
+
+/*START OF CHOICES STYLING*/
+/*
+.m_1 {
+    margin-bottom: 20px;
+}
+.m_2 {
+    margin: 5px;
+}
+.m_3 {
+    margin: 0;
+    padding: 0;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+a {
+    color: #2C67D6;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.block_1 {
+    position: relative;
+}
+.block_2 {
+    position: absolute;
+    text-align: right;
+    top: 30%;
+    padding-right: 8%;
+    transform: translate(0, -50%)
+}
+.text_choice {
+    color: white;
+    font-size: 40px;
+}
+.block_choice {
+    border: 1px solid white;
+    padding: 20px;
+    width: 150px;
+    color: white;
+    float: right;
+    font-size: 22px;
+    margin-top: 10px;
+    text-align: center;
+}
+*/
+.card {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+  text-transform: uppercase;
+  border: transparent;
+}
+.card-img-overlay {
+  font-weight: 700;
+  background-color: #14ACAF;
+  /*opacity: 0.5;*/
+  height: 80px;
+  position: relative;
+  bottom: 0px;
+}
+.card-title {
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.375em;
+    opacity: 1 !important;
+}
+/*healthy_eating.html*/
+#img_1{
+  width:40%;
+  padding:20px;
+}
+.cards{
+  display:flex;
+  align-items: center;
+  margin-right:40px;
+  margin-left: 40px;
+}
+#cards-intro2{
+  background-image: url('./img/Group\ 22351.png');
+}
+.scripts{
+  margin-bottom:200px;
+}
+
+/*MEDIA QUERIES SECTION HERE */
+/*Emi, I was toying around here, if it stops being responsive look here first*/
+@media (min-width: 992px){
+.col-md-offset-2 {
+    margin-left: 16.666667%;
+}
+.col-md-8 {
+    width: 66.666667%;
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+}
+.col-md-6 {
+    width: 50%;
+}
+}
+@media (min-width: 768px){
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+}
