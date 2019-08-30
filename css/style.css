@@ -6,7 +6,7 @@ h1 .display-3 {
 }
 
 body {
-    background-color: #Fdfdfd;
+    background-color: #FCFBFA;
     font-family: 'Source Sans Pro', sans-serif;
 }
 /*--- Nav Scrolling Offset --*/
@@ -195,18 +195,21 @@ a {
   margin: 0 auto;
   height: 100%;
   position: relative;
-  color: white;
   text-transform: uppercase;
   border: transparent;
 }
 .card-img-overlay {
   font-weight: 700;
   background-color: #14ACAF;
+  /*opacity: 0.5;*/
   height: 80px;
   position: relative;
   bottom: 0px;
-
-  
+}
+.card-title {
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.375em;
+    opacity: 1 !important;
 }
 
 
