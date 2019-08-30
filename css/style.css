@@ -135,9 +135,6 @@ align-items: center;
 * {
     box-sizing: border-box;
 }
-div {
-    display: block;
-}
 
 .features-block {
     margin: 0 auto;
@@ -146,9 +143,7 @@ div {
 }
 
 /*START OF CHOICES STYLING*/
-.col-md-6 {
-    width: 50%;
-}
+
 .m_1 {
     margin-bottom: 20px;
 }
@@ -173,7 +168,6 @@ a {
     position: relative;
 }
 .block_2 {
-    width: 100%;
     position: absolute;
     text-align: right;
     top: 30%;
