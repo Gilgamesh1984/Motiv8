@@ -106,12 +106,23 @@ body {
 }
 
 .btn-jumbotron {
-    background-color: #414345;
-    border-color: white;
+    background-color: transparent;
+    border-color: none;
+
 }
 .btn-jumbotron:hover {
-    background-color: #2C67D6;
-    border-color: white;
+    background-color: transparent;
+    border-color: none;
+}
+.btn-primary {
+  border-color: transparent;
+  padding: 0;
+  background-color: transparent;
+}
+.btn-primary:hover {
+  border-color: transparent;
+  padding: 0;
+  background-color: transparent;
 }
 /*STYLING FOR HR*/
 .my-4 {
@@ -131,70 +142,15 @@ display: flex;
 align-items: center;
 }
 
-.store {
+.store img{
     position: relative;
-    justify-content: space-around;
+    width: 30% !important;
+    justify-content: flex-end;
 }
 
 /*START OF FEATURES STYLING*/
-/*
-* {
-    box-sizing: border-box;
-}
-
-.features-block {
-    margin: 0 auto;
-    padding-top: 60px;
-    width: 100%;
-}
 
 /*START OF CHOICES STYLING*/
-/*
-.m_1 {
-    margin-bottom: 20px;
-}
-.m_2 {
-    margin: 5px;
-}
-.m_3 {
-    margin: 0;
-    padding: 0;
-}
-.row {
-    margin-right: -15px;
-    margin-left: -15px;
-}
-a {
-    color: #2C67D6;
-    text-decoration: none;
-    background-color: transparent;
-    cursor: pointer;
-}
-.block_1 {
-    position: relative;
-}
-.block_2 {
-    position: absolute;
-    text-align: right;
-    top: 30%;
-    padding-right: 8%;
-    transform: translate(0, -50%)
-}
-.text_choice {
-    color: white;
-    font-size: 40px;
-}
-.block_choice {
-    border: 1px solid white;
-    padding: 20px;
-    width: 150px;
-    color: white;
-    float: right;
-    font-size: 22px;
-    margin-top: 10px;
-    text-align: center;
-}
-*/
 .row {
   margin: 22px 100px;
 }
@@ -260,7 +216,7 @@ footer{
 	margin: 0;
 }
  
-/* The company logo */
+/* PROJECT TITLE TBD */
  
 .footer-distributed .footer-left img{
 	width: 30%;
@@ -376,7 +332,6 @@ footer{
 	margin-bottom: 5px;
 }
  
-/* Here is the code for Responsive Footer */
 /* You can remove below code if you don't want Footer to be responsive */
  
  
