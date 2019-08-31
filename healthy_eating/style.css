@@ -221,18 +221,42 @@ a {
     opacity: 1 !important;
 }
 /*healthy_eating.html*/
+body{
+  background-image: url('./img/Web\ 1920\ –\ 5.png');
+}
+.bar{
+  margin:15px;
+  height:10px;
+  color:blue:
+}
 #img_1{
   width:40%;
+  padding:20px;
+}
+#img_2{
+  width:30%;
+  padding:20px;
+}
+#img_3{
+  width:50%;
+  padding:20px;
+}
+#img_4{
+  width:50%;
+  padding:20px;
+}
+#img_5{
+  width:50%;
   padding:20px;
 }
 .cards{
   display:flex;
   align-items: center;
-  margin-right:40px;
-  margin-left: 40px;
+  margin-right:100px;
+  margin-left: 100px;
 }
 #cards-intro2{
-  background-image: url('./img/Group\ 22351.png');
+  /*background-image: url('./img/Group\ 22351.png');
 }
 .scripts{
   margin-bottom:200px;
