@@ -89,14 +89,31 @@ body {
   background: rgba(0, 0, 0, 0.7)!important;
   transition: background-color 1s ease 0s;
 }
+/*END OF NAVBAR STYLING*/
 
+/*=============EMI CARD STYLING============= */
 #all{
   margin:100px;
 }
 .cards{
   margin-top:50px;
+  width: 30%;
+  border: 1px solid red;
+  text-align: center;
+  align-items: center;
+}
+h2 {
+    font-size: 4em;
+    color: red;
+    text-align: center;
+}
 
-/*============= TEAM SECTION FIXED BG IMG LIGHT =============*/
+/*============= GRANT CARD STYLING =============*/
+
+.offset {
+    position: relative;
+}
+
 
 #fixed-2 {
   background-image: url('../img/office.jpeg');
@@ -144,6 +161,10 @@ body {
 .owl-dot:hover span {
   background: #1ebba3!important;
 }
+
+
+/*=============END TEAM CARD STYLING=============*/
+
 
 /*FOOTER CODE TEST GOES HERE*/
 footer{
