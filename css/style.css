@@ -82,7 +82,7 @@ body {
 .dropdown-menu:hover, .dropdown-item:hover,
 .dropdown-menu:focus, .dropdown-item:focus,
 .dropdown-toggle:active, .dropdown-toggle:focus {
-  color: #414345 !important;
+  color: #FFFFFF !important;
 }
 .dropdown-submenu.solid, .dropdown-menu.show.solid {
   background: rgba(0, 0, 0, 0.7)!important;
@@ -161,31 +161,31 @@ align-items: center;
   position: relative;
   text-transform: uppercase;
   border: transparent;
+  cursor: pointer;
 }
 .card-img-overlay {
   font-weight: 700;
-  background-color: #14ACAF;
+  background-color: rgba(20, 172, 175, .5);
   /*opacity: 0.5;*/
   height: 4em;
-  position: relative;
+  /*position: relative;*/
   bottom: 0px;
 }
 .card-title {
     color: #FAE8A6;
     font-size: 200%;
 }
+.blue-box {
+  margin-top: -20px;
+  background-color: #5BBDC8;
+  height: 132px;
+}
 
 /*FOOTER CODE TEST GOES HERE*/
 footer{
-	position: fixed;
+	position: relative;
 	bottom: 0;
 }
- 
-@media (max-height:800px){
-	footer { position: static; }
-	header { padding-top:40px; }
-}
- 
  
 .footer-distributed{
 	background-color: #FE8A00;
@@ -356,6 +356,11 @@ footer{
 
 /*MEDIA QUERIES SECTION HERE */
 /*Emi, I was toying around here, if it stops being responsive look here first*/
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+
 @media (min-width: 992px){
 
 .col-md-8 {

@@ -56,7 +56,7 @@ body {
 }
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
-  color: #2C67D6;
+  color: #FFFFFF;
 }
 .navbar.solid {
   background: rgba(0, 0, 0, 0.7)!important;
@@ -66,7 +66,7 @@ body {
 .dropdown-menu, .dropdown-item {
   font-size: .9rem;
   font-weight: 700!important;
-  background-color: transparent!important;
+  background-color: #FE8A00 !important;
   border: 0;
   color: #414345;
 }
@@ -84,12 +84,13 @@ body {
 .dropdown-menu:hover, .dropdown-item:hover,
 .dropdown-menu:focus, .dropdown-item:focus,
 .dropdown-toggle:active, .dropdown-toggle:focus {
-  color: #414345 !important;
+  color: #FFFFFF !important;
 }
 .dropdown-submenu.solid, .dropdown-menu.show.solid {
   background: rgba(0, 0, 0, 0.7)!important;
   transition: background-color 1s ease 0s;
 }
+
 /*JUMBOTRON CONTENT HERE */
 .jumbotron{
     background-image: url("./img/Flat-lay-of-healthy-foods.png") ;
@@ -140,65 +141,6 @@ align-items: center;
     justify-content: space-around;
 }
 
-/*START OF FEATURES STYLING*/
-/*
-* {
-    box-sizing: border-box;
-}
-
-.features-block {
-    margin: 0 auto;
-    padding-top: 60px;
-    width: 100%;
-}
-
-/*START OF CHOICES STYLING*/
-/*
-.m_1 {
-    margin-bottom: 20px;
-}
-.m_2 {
-    margin: 5px;
-}
-.m_3 {
-    margin: 0;
-    padding: 0;
-}
-.row {
-    margin-right: -15px;
-    margin-left: -15px;
-}
-a {
-    color: #2C67D6;
-    text-decoration: none;
-    background-color: transparent;
-    cursor: pointer;
-}
-.block_1 {
-    position: relative;
-}
-.block_2 {
-    position: absolute;
-    text-align: right;
-    top: 30%;
-    padding-right: 8%;
-    transform: translate(0, -50%)
-}
-.text_choice {
-    color: white;
-    font-size: 40px;
-}
-.block_choice {
-    border: 1px solid white;
-    padding: 20px;
-    width: 150px;
-    color: white;
-    float: right;
-    font-size: 22px;
-    margin-top: 10px;
-    text-align: center;
-}
-*/
 .card {
   width: 100%;
   margin: 0 auto;
@@ -221,8 +163,12 @@ a {
     opacity: 1 !important;
 }
 
-
-
+/*LINE STYLING */
+.blue-box {
+  margin-top: -20px;
+  background-color: rgba(20, 172, 175, .75);
+  height: 132px;
+}
 /*healthy_eating.html*/
 body{
   background-image: url('./img/Web\ 1920\ –\ 5.png');
@@ -252,21 +198,195 @@ body{
   display:flex;
   align-items: center;
   margin:50px 100px;
-  border-bottom: 5px solid #5BBDC8; 
 }
-#cards-intro2{
+/*#cards-intro2{
   /*background-image: url('./img/Group\ 22351.png');
 }
 .scripts{
   margin-bottom:200px;
 }
+/*FOOTER CODE TEST GOES HERE*/
+footer{
+	position: relative;
+	bottom: 0;
+}
+ 
+.footer-distributed{
+	background-color: #FE8A00;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+ 
+/* Footer left */
+ 
+.footer-distributed .footer-left{
+	width: 30%;
+}
+ 
+.footer-distributed h3{
+	color:  #ffffff;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0;
+}
+ 
+/* PROJECT TITLE TBD */
+ 
+.footer-distributed .footer-left img{
+	width: 30%;
+}
+ 
+ 
+/* Footer links */
+ 
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+ 
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+ 
+.footer-distributed .footer-group{
+	color:  #ffffff;
+	font-size: 1.2em;
+	font-weight: 700;
+	margin: 0 auto;
+}
+ 
+/* Footer Center */
+ 
+.footer-distributed .footer-center{
+	width: 35%;
+}
+ 
+ 
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+ 
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+ 
+.footer-distributed .footer-center p a{
+	color:  #33383b;
+	text-decoration: none;;
+}
+ 
+ 
+/* Footer Right */
+ 
+.footer-distributed .footer-right{
+	width: 30%;
+}
+ 
+.footer-distributed .footer-group{
+	line-height: 20px;
+	color:  #ffffff;
+	font-size: .9em;
+	font-weight: normal;
+	margin: 0 auto;
+}
+ 
+.footer-distributed .footer-group span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+ 
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+ 
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+ 
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+ 
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+ 
+/* You can remove below code if you don't want Footer to be responsive */
+ 
+ 
+@media (max-width: 880px) {
+ 
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+ 
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+ 
+}
+
+
 
 /*MEDIA QUERIES SECTION HERE */
 /*Emi, I was toying around here, if it stops being responsive look here first*/
-@media (min-width: 992px){
-.col-md-offset-2 {
-    margin-left: 16.666667%;
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
 }
+
+@media (min-width: 992px){
+
 .col-md-8 {
     width: 66.666667%;
 }
