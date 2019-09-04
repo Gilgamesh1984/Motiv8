@@ -56,7 +56,7 @@ body {
 }
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
-  color: #2C67D6;
+  color: #FFFFFF;
 }
 .navbar.solid {
   background: rgba(0, 0, 0, 0.7)!important;
@@ -66,7 +66,7 @@ body {
 .dropdown-menu, .dropdown-item {
   font-size: .9rem;
   font-weight: 700!important;
-  background-color: transparent!important;
+  background-color: #FE8A00 !important;
   border: 0;
   color: #414345;
 }
@@ -84,12 +84,13 @@ body {
 .dropdown-menu:hover, .dropdown-item:hover,
 .dropdown-menu:focus, .dropdown-item:focus,
 .dropdown-toggle:active, .dropdown-toggle:focus {
-  color: #414345 !important;
+  color: #FFFFFF !important;
 }
 .dropdown-submenu.solid, .dropdown-menu.show.solid {
   background: rgba(0, 0, 0, 0.7)!important;
   transition: background-color 1s ease 0s;
 }
+
 /*JUMBOTRON CONTENT HERE */
 .jumbotron{
     background-image: url("./img/Flat-lay-of-healthy-foods.png") ;
@@ -140,65 +141,6 @@ align-items: center;
     justify-content: space-around;
 }
 
-/*START OF FEATURES STYLING*/
-/*
-* {
-    box-sizing: border-box;
-}
-
-.features-block {
-    margin: 0 auto;
-    padding-top: 60px;
-    width: 100%;
-}
-
-/*START OF CHOICES STYLING*/
-/*
-.m_1 {
-    margin-bottom: 20px;
-}
-.m_2 {
-    margin: 5px;
-}
-.m_3 {
-    margin: 0;
-    padding: 0;
-}
-.row {
-    margin-right: -15px;
-    margin-left: -15px;
-}
-a {
-    color: #2C67D6;
-    text-decoration: none;
-    background-color: transparent;
-    cursor: pointer;
-}
-.block_1 {
-    position: relative;
-}
-.block_2 {
-    position: absolute;
-    text-align: right;
-    top: 30%;
-    padding-right: 8%;
-    transform: translate(0, -50%)
-}
-.text_choice {
-    color: white;
-    font-size: 40px;
-}
-.block_choice {
-    border: 1px solid white;
-    padding: 20px;
-    width: 150px;
-    color: white;
-    float: right;
-    font-size: 22px;
-    margin-top: 10px;
-    text-align: center;
-}
-*/
 .card {
   width: 100%;
   margin: 0 auto;
@@ -224,7 +166,7 @@ a {
 /*LINE STYLING */
 .blue-box {
   margin-top: -20px;
-  background-color: #5BBDC8;
+  background-color: rgba(20, 172, 175, .75);
   height: 132px;
 }
 /*healthy_eating.html*/
@@ -261,7 +203,7 @@ body{
   align-items: center;
   margin:50px 100px;
 }
-#cards-intro2{
+/*#cards-intro2{
   /*background-image: url('./img/Group\ 22351.png');
 }
 .scripts{
