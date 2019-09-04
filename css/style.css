@@ -161,6 +161,7 @@ align-items: center;
   position: relative;
   text-transform: uppercase;
   border: transparent;
+  cursor: pointer;
 }
 .card-img-overlay {
   font-weight: 700;
