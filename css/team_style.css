@@ -90,6 +90,11 @@ body {
   transition: background-color 1s ease 0s;
 }
 
+#all{
+  margin:100px;
+}
+.cards{
+  margin-top:50px;
 
 /*============= TEAM SECTION FIXED BG IMG LIGHT =============*/
 

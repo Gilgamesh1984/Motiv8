@@ -114,6 +114,19 @@ body {
     background-color: transparent;
     border-color: none;
 }
+/*
+#jumbotron-narrow {
+  background-image: url("../img/peace.jpg") ;
+  background-size: cover;
+  height: 40vh;
+  width: 100%;
+  margin: 0;
+  color: white;
+  text-align: center;
+  margin-top: -40px;
+
+}
+*/
 .btn-primary {
   border-color: transparent;
   padding: 0;
