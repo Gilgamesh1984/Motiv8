@@ -164,10 +164,10 @@ align-items: center;
 }
 .card-img-overlay {
   font-weight: 700;
-  background-color: #14ACAF;
+  background-color: rgba(20, 172, 175, .5);
   /*opacity: 0.5;*/
   height: 4em;
-  position: relative;
+  /*position: relative;*/
   bottom: 0px;
 }
 .card-title {
