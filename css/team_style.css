@@ -114,6 +114,7 @@ h2 {
 .flex{
 	display:flex;
 	text-align: center;
+	margin-top:3%;
 }
 .col-md-8,.col-sm-12{
 	margin:0% 15%; 
@@ -126,6 +127,7 @@ h2 {
 	text-align: center;
 	margin-top:5%;
 }
+
 
 /*============= GRANT CARD STYLING =============*/
 
