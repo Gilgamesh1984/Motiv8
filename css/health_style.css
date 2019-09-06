@@ -93,7 +93,7 @@ body {
 
 /*JUMBOTRON CONTENT HERE */
 .jumbotron{
-    background-image: url("./img/Flat-lay-of-healthy-foods.png") ;
+    background-image: url("../img/Flat-lay-of-healthy-foods.png") ;
     background-size: cover;
     height: 100vh;
     width: 100%;
