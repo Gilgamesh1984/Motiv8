@@ -12,11 +12,7 @@
   	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css">
  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/v4-shims.css">
 	<link href="css/style.css" rel="stylesheet">
-	<script type="text/javascript">
-	$(".mybox").click(function() {
-  window.location = $(heathly_eating/heathly_eating.html); 
-  return false;
-});</script>
+	
 
 </head>
 <body data-spy="scroll" data-target="#navbarResponsive">
@@ -106,6 +102,7 @@
 </div>
 
 <!--FIRST CARD-->
+
 <div class="row" id="choices">
 <div class="col-md-6 col-sm-6">
 <div class="card bg-dark text-white mybox">
@@ -224,6 +221,11 @@
     <h1>THIS IS THE SCRATCH PAD FOR UNTESTED CODE</h1>
 -->
 
-
+<script type="text/javascript">
+	$(".card").click(function() {
+		console.log('click')
+  	window.location = $(heathly_eating/heathly_eating.html); 
+});
+</script>
 </body>
 </html>
