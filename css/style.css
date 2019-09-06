@@ -105,25 +105,16 @@ body {
     align-items: center;
 }
 
-.btn-jumbotron {
-    background-color: transparent;
-    border-color: none;
-
-}
-.btn-jumbotron:hover {
-    background-color: transparent;
-    border-color: none;
-}
-
 #jumbotron-narrow {
-  background-image: url("../img/peace.jpg") ;
-  background-size: cover;
+  background-image: url("../img/jumbo_narrow2.png") ;
+  background-size: auto;
   height: 40vh;
   width: 100%;
   margin: 0;
-  color: white;
+  color:rgba(20, 172, 175, 1);
   text-align: center;
-  margin-top: -40px;
+  padding-top: 40px;
+  border: 0;
 
 }
 .btn-primary {
@@ -156,8 +147,11 @@ align-items: center;
 
 .store img{
     position: relative;
-    width: 30% !important;
-    justify-content: flex-end;
+    width: auto !important;
+    height: 67px !important;
+    display: inline-block;
+    margin-right: 15px;
+
 }
 
 /*START OF FEATURES STYLING*/
