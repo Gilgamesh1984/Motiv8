@@ -222,9 +222,25 @@
 -->
 
 <script type="text/javascript">
-	$(".card").click(function() {
-		console.log('click')
-  	window.location = $(heathly_eating/heathly_eating.html); 
+	$(".card-img").click(function() {
+		var location = window.location.href;
+		var feature = this.src;
+		console.log(feature);
+		if(location.includes('github')){
+			location = 'https://gilgamesh1984.github.io/Zeal/';
+		} else {
+			location = 'http://127.0.0.1:5500/Motiv8/'
+		}
+		//if card = healthy, then set url to healthy
+		//window.location = location + 'healthy_eating.html';
+		if(feature.includes('healthy_eating')) {
+			feature = 'healthy_eating';
+			window.location = location + feature + '.html';
+		} else if (feature.includes('sports2')) {
+
+		}
+
+		
 });
 </script>
 </body>
